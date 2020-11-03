@@ -1,32 +1,28 @@
+<!DOCTYPE html>
 <html>
     <head>
         <title>HOME | NILOY MAHMUD</title>
-        <link rel = "stylesheet" href = "index.css" />
+        <link rel = "stylesheet" href = "human.css" />
     </head>
     <body>
-        <div class = "bigmid">
-        <div class = "main-div">
-            <h1>COMING SOON</h1>
-            <hr>
-            <p id = "demo" "></p>
-        </div>
-      </div>
+        <header>
+            <nav>
+                <div class = "diva">
+                    <ul>
+                        <li>HOME</li>
+                        <li>BLOG</li>
+                        <li>PROJECTS</li>
+                        <li class = "linker">SIGN IN</li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <section>
+            <div class = "main-div">
+                <h1 class = "para">Hi, I am </h1>
+                <h1> <span class = "main-header">Niloy Mahmud</span></h1>
+                <h1 class = "para">A Man Who Loves Technology</h1>
+            </div>
+        </section>
     </body>
-    <script>
-        var countDownDate = new Date("Dec 03,2020 00:00:00").getTime();
-        var countDownFunction = setInterval(function(){
-            var now  = new Date().getTime();
-            var distance = countDownDate - now;
-
-            var days = Math.floor(distance/(1000*60*60*24));
-            var hours = Math.floor((distance%(1000*60*60*24))/(1000*60*60));
-            var minutes = Math.floor((distance%(1000*60*60))/(1000*60));
-            var seconds = Math.floor((distance%(1000*60))/1000);  
-            document.getElementById("demo").innerHTML= days + " Days " + hours + " Hours " + minutes + " Minutes " + seconds + " Seconds";
-            if(distance < 0){
-                clearInterval(countDownFunction);
-                document.getElementById("demo").innerHTML = "EXPIRED";
-            }
-        },1000);
-    </script>
 </html>

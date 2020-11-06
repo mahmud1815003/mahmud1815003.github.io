@@ -40,6 +40,7 @@ html,body{
 
 .diva{
     float: right;
+    padding-top: 1em;
 }
 
 .diva ul{
@@ -86,4 +87,25 @@ html,body{
 .para{
     font-size: 35px;
     font-family: "Raleway";
+}
+
+.social{
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+.social li{
+    display:inline-block;
+    margin: 10px 30px;
+    padding: 10px 10px;
+    font-size: 20px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 50%;
+    align-items: center;
+
+}
+
+.social li:hover{
+    background-color: rgba(255,255,255,.2);
 }

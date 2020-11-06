@@ -95,6 +95,7 @@ html,body{
     float: left;
 }
 .social li{
+    list-style: none;
     display:inline-block;
     margin: 10px 30px;
     padding: 10px 10px;

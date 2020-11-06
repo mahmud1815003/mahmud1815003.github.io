@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+
+@font-face{
+    font-family: "Flash Back";
+    src: url(ftd.ttf)format("truetype");
+    
+}
+
+*{
+    box-sizing: border-box;
+    font-family: "Source Sans Pro";
+    color: white;
+}
+
+html,body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(66157ab0ac0f75036fa6288b295edd60.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    background-color: rgba(5, 54, 158, 0.9);
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+
+.nav {
+    margin: 0;
+    padding: 0;
+}
+
+.diva{
+    float: right;
+    padding-top: 1em;
+}
+
+.diva ul{
+    padding-right: 30px;
+}
+
+.diva li{
+    display: inline-block;
+    margin: 0;
+    padding: 10px;
+    font-size: 2em;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.diva li:hover{
+    background-color: rgba(255,255,255,.4);
+}
+
+.linker{
+    background-color: rgba(194, 32, 21, 0.6);
+    border-radius: 5px;
+}
+
+.section{
+    margin: 0;
+    padding: 0;
+}
+
+.main-div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.main-header{
+    font-family: "Flash Back";
+    font-size: 100px;
+}
+
+.para{
+    font-size: 35px;
+    font-family: "Raleway";
+}
+
+.social{
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+.social li{
+    display:inline-block;
+    margin: 10px 30px;
+    padding: 10px 10px;
+    font-size: 20px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 50%;
+    align-items: center;
+
+}
+
+.social li:hover{
+    background-color: rgba(255,255,255,.2);
+}

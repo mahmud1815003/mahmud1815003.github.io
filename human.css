@@ -94,7 +94,7 @@ html,body{
     padding: 0;
     float: left;
 }
-.social li{
+.li{
     list-style: none;
     display:inline-block;
     margin: 10px 30px;
@@ -107,6 +107,6 @@ html,body{
 
 }
 
-.social li:hover{
+.li:hover{
     background-color: rgba(255,255,255,.2);
 }
